@@ -1,0 +1,63 @@
+/* Mobile width < 740px */
+@media screen  and (max-width: 46.1875em){
+    #nav{
+        display: block;
+    }
+    #nav > li{
+        display: block;
+    }
+
+    #nav > li:first-child{
+        display: inline-block;
+    }
+
+    #header .search-btn{
+        display: none;
+    }
+
+    #header .mobile-menu{
+        display: block;
+    }
+
+    #slider{
+        max-width: 100%;
+    }
+
+    
+    #content .content__member,
+    .tour__place,
+    #contact .contact__box .contact__info{
+        display: block;
+    }
+
+    #content .content__member .member{
+        width: 100%;
+    }
+
+    #content .content__member img{
+        width: fit-content;
+    }
+
+    #content .content__member .member__name{
+        margin-top: 20px;
+    }
+
+    
+    #contact .contact__box .contact__item{
+        width: 100%;
+    }
+
+    .contact__item.fan{
+        margin-top: 20px;
+    }
+}
+
+/* Tablet min - width  740px  max width 1080 */
+@media screen  and (min-width: 46.1875em) and (max-width: 67.5em){
+
+}
+
+/* Mobile width < 740px */
+@media screen  and (min-width: 67.6em){
+
+}

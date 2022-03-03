@@ -15,6 +15,7 @@ html{
     left: 0;
     right: 0;
     z-index: 1;
+    overflow: hidden;
 }
 
 #nav{
@@ -68,9 +69,25 @@ html{
     background-color: #ccc;
 }
 
+#header .mobile-menu{
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+}
+
+#header .mobile-menu,
 #header .search-btn{
     float: right;
     padding: 0 21px;
+}
+
+#header .mobile-menu:hover{
+    background-color: #ccc;
+}
+
+#header .mobile-menu:hover .menu-icon{
+    color: black;
 }
 
 #header .search-btn:hover{
@@ -78,6 +95,7 @@ html{
     cursor: pointer;
 }
 
+.mobile-menu .menu-icon,
 .search-btn .search-icon{
     color: white;
     line-height: 46px;
