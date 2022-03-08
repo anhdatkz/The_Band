@@ -3,6 +3,7 @@
     #nav{
         display: block;
     }
+    
     #nav > li{
         display: block;
     }
@@ -57,7 +58,7 @@
 
 }
 
-/* Mobile width < 740px */
+/* pc width > 1080px */
 @media screen  and (min-width: 67.6em){
 
 }

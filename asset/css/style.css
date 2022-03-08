@@ -15,7 +15,6 @@ html{
     left: 0;
     right: 0;
     z-index: 1;
-    overflow: hidden;
 }
 
 #nav{
@@ -45,16 +44,16 @@ html{
     display: block;
 }
 
-#nav li:hover .subnav{
-    display: block;
-}
-
 #nav .subnav{
     display: none;
     position: absolute;
     background-color: white;
     width: 200px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+#nav li:hover .subnav{
+    display: block;
 }
 
 #nav .subnav a{
@@ -65,7 +64,7 @@ html{
     left: 0;
 }
 
-#nav .subnav li:hover{
+#nav .subnav > li:hover{
     background-color: #ccc;
 }
 
@@ -105,7 +104,7 @@ html{
     position: relative;
     margin-top: 46px;
     padding-top: 50%;
-    /* background: url('/asset/images/chicago.jpg') top center/ cover no-repeat; */
+    /* background: url('/asset/images/ny.jpg') top center/ cover no-repeat; */
 }
 
 #slider .text-content{
